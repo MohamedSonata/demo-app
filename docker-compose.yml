@@ -23,7 +23,7 @@ services:
       # placement:
       #   max_replicas_per_node: 1
       update_config:
-        parallelism: 
+        parallelism: 3
         delay: 30s
       restart_policy:
         condition: on-failure
